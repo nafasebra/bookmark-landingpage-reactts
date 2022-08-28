@@ -1,10 +1,8 @@
-# EasyBank landing page (temeplate)
+# Bookmark landing page
 
-I create a landing page (the easybank) with React/Typescript and the tailwindCss library
+Bookmark landing page created by Reactjs, TypeScript and TailwindCSS library.
 
-
-
-#### [Watch demo][https://nafasebra.github.io/easybank-landingpage]
+#### [Watch demo](https://nafasebra.github.io/bookmark-landingpage-reactts)
 
 ## Tools:
 - Reactjs
@@ -12,9 +10,10 @@ I create a landing page (the easybank) with React/Typescript and the tailwindCss
 - TailwindCSS library
 - vite
 - npm
-- gh-pages library (for deploy on github)
+
+## What challenges have for me?
+- Handle tabbar, FAQ items and sidebar
 
 ## How to use this?
-- 1 - first install npm and type the command to terminal: `npm install`
-- 2 - for run this project, write this: `npm run dev`
-- enjoy :)
+- first install npm and type this command to your terminal: `npm install`
+- for run this project, write this: `npm run dev`
