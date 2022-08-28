@@ -12,7 +12,7 @@ Bookmark landing page created by Reactjs, TypeScript and TailwindCSS library.
 - npm
 
 ## What challenges have for me?
-- Handle tabbar, FAQ items and sidebar
+- Handle tabbar, FAQ items and sidebar with typescript/react
 
 ## How to use this?
 - first install npm and type this command to your terminal: `npm install`
