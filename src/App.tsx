@@ -6,9 +6,9 @@ import Tabbar from "./components/Tabbar";
 import Button from "./components/Button";
 import Faq from "./components/Faq";
 
-import chrome from "./assets/logo-chrome.svg";
-import firefox from "./assets/logo-firefox.svg";
-import opera from "./assets/logo-opera.svg";
+import chromeIcon from "./assets/logo-chrome.svg";
+import firefoxIcon from "./assets/logo-firefox.svg";
+import operaIcon from "./assets/logo-opera.svg";
 import Form from "./components/Form";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
       <SectionContainer>
         <div className="w-full md:w-[600px] mx-auto">
           <h2 className="text-2xl lg:text-3xl text-center font-semibold">
-            download the extension
+            Download the extension
           </h2>
           <p className="py-5 text-center opacity-75">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
@@ -34,7 +34,7 @@ function App() {
           <div className="w-full lg:w-[27%] rounded-md mx-auto shadow-shadow-bluw p-5">
             <div className="w-20 h-20 flex items-center justify-center mx-auto">
               <img
-                src={chrome}
+                src={chromeIcon}
                 className="w-full mx-auto"
                 alt="the chrome browser"
               />
@@ -43,14 +43,14 @@ function App() {
             <p className="text-sm text-center pb-10 opacity-80">minimum version 62</p>
             <Button
               target="#"
-              textButton="install extension"
+              textButton="Install extension"
               custormStyle="bg-blue border-2 border-blue hover:text-blue"
             />
           </div>
           <div className="w-full lg:w-[27%] rounded-md mx-auto shadow-shadow-bluw p-5 translate-y-10">
             <div className="w-20 h-20 flex items-center justify-center mx-auto">
               <img
-                src={firefox}
+                src={firefoxIcon}
                 className="w-full mx-auto"
                 alt="the firefox browser"
               />
@@ -59,14 +59,14 @@ function App() {
             <p className="text-sm text-center pb-10 opacity-80">minimum version 62</p>
             <Button
               target="#"
-              textButton="install extension"
+              textButton="Install extension"
               custormStyle="bg-blue border-2 border-blue hover:text-blue"
             />
           </div>
           <div className="w-full lg:w-[27%] rounded-md mx-auto shadow-shadow-bluw p-5 translate-y-20">
             <div className="w-20 h-20 flex items-center justify-center mx-auto">
               <img
-                src={opera}
+                src={operaIcon}
                 className="w-full mx-auto"
                 alt="the opera browser"
               />
@@ -75,7 +75,7 @@ function App() {
             <p className="text-sm text-center pb-10 opacity-80">minimum version 62</p>
             <Button
               target="#"
-              textButton="install extension"
+              textButton="Install extension"
               custormStyle="bg-blue border-2 border-blue hover:text-blue"
             />
           </div>
@@ -85,7 +85,7 @@ function App() {
       <SectionContainer>
         <div className="py-24 w-full md:w-[600px] mx-auto">
           <h2 className="text-2xl lg:text-3xl text-center font-semibold">
-            frequently asked questions
+            Frequently asked questions
           </h2>
           <p className="py-5 text-center opacity-75">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
@@ -94,7 +94,7 @@ function App() {
           </p>
           <Faq />
           <div className="flex justify-center">
-            <Button target="#" textButton="more info" custormStyle="bg-blue border-2 border-blue hover:text-blue" />
+            <Button target="#" textButton="More Info" custormStyle="bg-blue border-2 border-blue hover:text-blue" />
           </div>
         </div>
       </SectionContainer>

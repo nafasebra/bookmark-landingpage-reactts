@@ -43,7 +43,7 @@ function Tabbar() {
                   <div className="flex justify-center lg:justify-start">
                     <Button
                       target="#"
-                      textButton="request invite"
+                      textButton="Request Invite"
                       custormStyle="bg-blue border-2 border-blue hover:text-blue"
                     />
                   </div>

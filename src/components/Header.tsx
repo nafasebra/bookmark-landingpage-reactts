@@ -17,7 +17,7 @@ function Header() {
             praesentium nisi dolor debitis.
           </p>
           <div className="flex justify-center lg:justify-start">
-            <Button target="#" textButton="request invite" custormStyle="bg-blue border-2 border-blue hover:text-blue" />
+            <Button target="#" textButton="Request Invite" custormStyle="bg-blue border-2 border-blue hover:text-blue" />
           </div>
         </div>
         <div className="w-[85%] sm:w-[65%] lg:w-[40%] mx-auto lg:mx-0">

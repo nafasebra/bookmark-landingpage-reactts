@@ -27,7 +27,7 @@ function Form() {
             onChange={(e) => setEmail(e.target.value)}
             className={`${
               error !== "" ? "border-[3px] border-red" : "border-gray-500"
-            } bg-white select-all w-full placeholder:text-gray-400 rounded-lg py-3 px-4`}
+            } outline-none bg-white select-all w-full placeholder:text-gray-400 rounded-lg py-3 px-4`}
             placeholder="Your email address..."
           />
           <p className={`${error !== '' ? "bg-red" : ""} text-left h-7 pt-1 rounded-bl-lg rounded-br-lg text-sm pl-5 text-white`}>
@@ -36,7 +36,7 @@ function Form() {
         </div>
         <button
           type="submit"
-          className="w-full md:w-[30%] py-3 mt-5 md:mt-0 rounded-lg bg-red text-white border-2 border-red hover:bg-white hover:text-red"
+          className="w-full md:w-[30%] py-3 mt-5 md:mt-0 rounded-lg bg-red text-white outline-none border-2 border-red hover:bg-white hover:text-red"
         >
           Contact us
         </button>
