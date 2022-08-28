@@ -20,11 +20,11 @@ function Tabbar() {
             repellat!
           </p>
 
-          <div className="flex flex-col lg:flex-row items-center pt-5">
+          <div className="flex flex-col lg:flex-row items-center pt-5 cursor-pointer">
             {
               tabs?.map((item, index) => (
                 <div key={index} onClick={() => setCurrent(index)} className={`flex items-center justify-center w-full lg:w-[calc(100%/3)] border-b-[1px] border-gray-300 px-2 py-6 capitalize relative after:contents-['*'] after:absolute after:left-0 after:right-0 after:bottom-0 after:w-full after:h-1 after:bg-red ${index === current ? "text-black after:opacity-100" : "text-gray-400 after:opacity-0"}`}>
-                  <p className="cursor-pointer">{item.tabName}</p>
+                  <p>{item.tabName}</p>
                 </div>
               ))
             }

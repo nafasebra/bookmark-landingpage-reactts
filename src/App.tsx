@@ -85,7 +85,7 @@ function App() {
       <SectionContainer>
         <div className="py-24 w-full md:w-[600px] mx-auto">
           <h2 className="text-2xl lg:text-3xl text-center font-semibold">
-            Frequently asked questions
+            Frequently Asked Questions
           </h2>
           <p className="py-5 text-center opacity-75">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis

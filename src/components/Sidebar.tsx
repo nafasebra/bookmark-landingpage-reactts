@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import logo from "../assets/logo.svg";
 import Button from "./Button";
 
@@ -9,11 +10,18 @@ type props = {
 function Sidebar(props: props) {
   const { show, setCloseMenu } = props;
 
+  useEffect(() => {
+    if (show) document.documentElement.style.overflowY = "hidden";
+    else document.documentElement.style.overflowY = "visible";
+  }, [show]);
+
   return (
     <aside
       className={`${
-        show ? "opacity-100 visible translate-y-0" : "opacity-0 invisible -translate-y-10"
-      } fixed inset-0 bg-dark overflow-hidden block md:hidden`}
+        show
+          ? "opacity-100 visible translate-y-0 z-10"
+          : "opacity-0 invisible -translate-y-10 z-0"
+      } fixed inset-0 bg-dark overflow-y-scroll block md:hidden min-h-screen`}
     >
       <div className="flex flex-col justify-between w-[90%] mx-auto text-white py-10 h-full">
         <div>
@@ -64,7 +72,7 @@ function Sidebar(props: props) {
             </li>
           </ul>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center py-5">
           <a href="#" className="mr-7 text-white hover:text-red">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
               <path
